@@ -1,3 +1,7 @@
+## 2026-06-01
+
+- Move `Config.on_packchanged` definition before the first `vim.pack.add()` call to make it easier to define installation hooks for plugins outside of the basic MiniMax config.
+
 ## 2026-04-07
 
 - Update `Config.on_packchanged` helper to pass plugin data to the callback. This makes it easier to use more universal callbacks in `vim.pack` hooks.
