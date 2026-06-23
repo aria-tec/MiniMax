@@ -1,3 +1,7 @@
+## 2026-06-23
+
+- Start using 'mini.input'.
+
 ## 2026-06-01
 
 - Move `Config.on_packchanged` definition before the first `vim.pack.add()` call to make it easier to define installation hooks for plugins outside of the basic MiniMax config.
