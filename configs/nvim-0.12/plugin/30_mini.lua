@@ -422,7 +422,7 @@ later(function() require('mini.cmdline').setup() end)
 -- - `:h MiniColors.interactive()` - interactively tweak color scheme
 -- - `:h MiniColors-recipes` - common recipes to use during interactive tweaking
 -- - `:h MiniColors.convert()` - convert between color spaces
--- - `:h MiniColors-color-spaces` - list of supported color sapces
+-- - `:h MiniColors-color-spaces` - list of supported color spaces
 --
 -- It is not enabled by default because it is not really needed on a daily basis.
 -- Uncomment next line (use `gcc`) to enable.
